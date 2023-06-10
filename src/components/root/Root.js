@@ -17,6 +17,9 @@ function Root() {
                 </NavLink>
             </nav>
             <Outlet/>
+            <footer>
+                <p>The styling for this app was done by codecademy.</p>
+            </footer>
       </>
     );
 
