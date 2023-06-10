@@ -1,7 +1,7 @@
 # Appointment Planner
 
 ## Description
-Here is my appoinetment planner react app.
+Here is my appointment planner app.
 
 ## Features
 - Allows users to create a list of contacts including their name, phone number and emial address.
@@ -12,6 +12,8 @@ Run npm start in the project directory or head to (https://appointment-planner-a
 
 ## Technologies 
 HTML, CSS, JS, React
+- Stateless react components.
+- React router.
 
 ## Colaborators
 The styling for this app was done by codecademy.com
