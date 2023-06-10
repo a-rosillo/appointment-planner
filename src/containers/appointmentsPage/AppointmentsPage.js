@@ -33,6 +33,7 @@ export const AppointmentsPage = ({ contacts, appointments, addAppointment }) => 
           setCurrentDate={setCurrentDate}
           currentTime={currentTime}
           setCurrentTime={setCurrentTime}
+          contacts={contacts}
         />
       </section>
       <hr />

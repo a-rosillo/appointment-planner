@@ -32,9 +32,9 @@ export const AppointmentForm = ({
   return (
     <>
       <form onSubmit={handleSubmit}>
-        <input type="text" value={currentName} onChange={e => setCurrentName(e.target.value)} />
-        <input type="date" min={getTodayString()} value={currentDate} onChange={e => setCurrentDate(e.target.value)} />
-        <input type="time" value={currentTime} onChange={e => setCurrentTime(e.target.value)} />
+        <input placeholder="Name" type="text" value={currentName} onChange={e => setCurrentName(e.target.value)} />
+        <input placeholder="Date" type="date" min={getTodayString()} value={currentDate} onChange={e => setCurrentDate(e.target.value)} />
+        <input placeholder="Time" type="time" value={currentTime} onChange={e => setCurrentTime(e.target.value)} />
         <ContactPicker contacts={contacts}/>
         <input type="submit"/>
       </form>
