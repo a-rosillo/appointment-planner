@@ -1,3 +1,21 @@
+# Appointment Planner
+
+## Description
+Here is my appoinetment planner react app.
+
+## Features
+- Allows users to create a list of contacts including their name, phone number and emial address.
+- Users can also add appointments and connect these to contacts that are saved in their directory. 
+
+## How to use
+Run npm start in the project directory or head to (https://appointment-planner-arosillo.netlify.app)
+
+## Technologies 
+HTML, CSS, JS, React
+
+## Colaborators
+The styling for this app was done by codecademy.com
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
